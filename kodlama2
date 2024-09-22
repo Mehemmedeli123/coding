@@ -1,0 +1,59 @@
+1)#include <iostream>
+using namespace std;
+#include <math.h>
+int main()
+{
+
+    float x,y,z,t,w;
+    cin>>x>>t>>z;
+    y=z*cos(x-3.14/6)/(1/2+pow(sin(t),2));
+    w=y+(z*z)/(3+z*z/5);
+    cout<<y<<w;
+}
+2)error
+3)#include <iostream>
+using namespace std;
+#include <math.h>
+int main()
+{
+    float a,b,t,y,w;
+    cin>>a>>b>>t;
+    y=pow(2.71,(b*t))*sin(a*t+b)-sqrt(abs(b*t+a));
+    w=(b*sin(a*t*t*cos(2*t))-1)*y*sqrt(3);
+    cout<<y<<w;
+}
+4)#include <iostream>
+using namespace std;
+#include <math.h>
+int main()
+{
+    float a,b,x,y,w;
+    cin>>a>>b>>x;
+    y=pow(cos(x*x),2)-x/sqrt(a*a+b*b);
+    w=sqrt(x*x+b*y)-(b*b*pow(sin(x+a),2)/x);
+    cout<<y<<w;
+
+}
+5)#include <iostream>
+using namespace std;
+#include <math.h>
+int main()
+{
+    float a,b,x,z,w;
+    cin>>a>>b>>x;
+    z=x*x*pow(tan(pow((x+b),2)),2) + a/sqrt(x+b);
+    w=(b*x*x-a*z)/((pow(2.71,(a*x)))-1);
+    cout<<z<<w;
+}
+6)#include <iostream>
+using namespace std;
+#include <math.h>
+int main()
+{
+    float a,b,x,y,w;
+    cin>>a>>b>>x;
+    y=x*x*(x+1)/b-pow(sin(x+a),2);
+    w=sqrt(x*b/a)+y*y*pow(cos((a+b)*(a+b)),2);
+    cout<<y<<w;
+}
+7)
