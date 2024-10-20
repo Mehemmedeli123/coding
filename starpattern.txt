@@ -1,0 +1,103 @@
+/*square star pattern tapsiriq*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,i,j;
+    cout<<"ededi daxil edin:";
+    cin>>n;
+    for(i=1; i <= n; i++)
+    {
+        for(j=1; j <= n; j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+
+}
+
+/*hollow square star pattern*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,i,j;
+    cout<<"ededi daxil et : ";
+    cin>>n;
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            if(i==0 || i==n-1 || j==0 || j==n-1){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+    }
+}
+/*rhombus star pattern*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,i,j,s;
+    cout<<"ededi daxil edin:";
+    cin>>n;
+    for(i=0;i<n;i++){
+        for(j=n;j-i>1;j--){
+            cout<<" ";
+        }
+        for(s=0;s<n;s++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+/*hollow rhombus star pattern*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,i,j,s;
+    cout<<"ededi daxil edin:";
+    cin>>n;
+    for(i=0;i<n;i++){
+        for(j=n;j-i>1;j--){
+            cout<<" ";
+        }
+        for(s=0;s<n;s++){
+            if(i==0 || i==n-1 || s==0 || s==n-1){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+            
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+/*mirrored rhombus star pattern*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,i,j,s;
+    cout<<"ededi daxil edin:";
+    cin>>n;
+    for(i=0;i<n;i++){
+        for(j=0;j<i;j++){
+            cout<<" ";
+        }
+        for(s=0;s<n;s++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
