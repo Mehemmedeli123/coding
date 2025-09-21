@@ -1,4 +1,10 @@
- Let's start:
+So this is my first CTF and I tried to make it fun and interesting.If you find any other way to become root you can send me them:)
+<i>And one more thing, RE:village is my fav game as you can guess :D</i>
+
+<h1>Writeup:</h1>
+
+Let's start:
+
 First i did a nmap scan to find open ports:
 
 ![nmap](images/ports.png)
@@ -32,5 +38,6 @@ To become root i will run sudo -l. We can run /usr/bin/vim as root so we can use
 
 ![root](images/root.png)
 
-This was a 
+This was an easy CTF for beginners, if you have any suggestions or reviews I'm open to listen <3.
+
 Note:<i>I didn't include any flags in this writeup</i>
