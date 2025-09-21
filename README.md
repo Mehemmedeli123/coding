@@ -5,4 +5,8 @@ First i did a nmap scan to find open ports:
 
 As you see 3 ports are open. First imma check the web page:
 
-![]
+![web](images/main.png)
+
+ So lets do a directory scan to find hidden directories. I used common.txt and found robots.txt. Inside robots.txt there is a /Secret file there:
+
+ ![secret](images/Secret)
